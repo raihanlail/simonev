@@ -18,7 +18,7 @@
             body {
                 font-family: 'Nunito', sans-serif;
                 scroll-behavior: smooth;
-                background-image: url("{{ asset('img/bg_login.png') }}");
+                background-image: url("{{ asset('img/bg_login5.png') }}");
                 width: 100%;
                 height: 1024px;
 
@@ -31,7 +31,7 @@
         
         @vite('resources/css/app.css', 'resources/js/app.js')
     </head>
-    <body class="">
+    <body class="bg-cover bg-center">
         
         <section class="background_login">
             <a href="#" class="flex  mb-6 text-xl font-extrabold text-gray-900 dark:text-black mt-10 ml-8 italic">
@@ -41,18 +41,18 @@
             <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
                 <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-white dark:border-gray-500">
                     <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
-                        <h1 class="text-xl font-bold  px-32 md:px-40 items-center leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-black justify-center">
+                        <h1 class="text-3xl font-bold  px-32 md:px-40 items-center leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-black justify-center">
                             Login
                         </h1>
                         <p class="font-semibold text-sm md:text-base">Selamat datang di SIMONEV Badan Pusat Statistik</p>
                         <form class="space-y-4 md:space-y-6" action="#">
                             <div>
                                 <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Username</label>
-                                <input type="email" name="email" id="email" placeholder="Masukkan username" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-white- dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="">
+                                <input type="email" name="email" id="email" placeholder="Masukkan username" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-white- dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required="">
                             </div>
                             <div>
                                 <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-black">Password</label>
-                                <input type="password" name="password" id="password" placeholder="Masukkan password" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
+                                <input type="password" name="password" id="password" placeholder="Masukkan password" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-white dark:border-gray-600 dark:placeholder-gray-400 dark:text-black dark:focus:ring-blue-500 dark:focus:border-blue-500" required="">
                             </div>
                             <div class="flex items-center justify-between">
                                 <div class="flex items-start">
